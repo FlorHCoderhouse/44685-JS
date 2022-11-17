@@ -1,0 +1,35 @@
+Calculadora avanzada
+Quizz app
+Piedra, papel o tijera
+App de notas
+App de clima
+e-commerce (carrito de compras)
+Generador de contraseñas
+Tateti
+URL shortener
+App de dibujo
+App de pedidos de comida
+Generador de memes
+App de peliculas
+App de chat
+Clon de twitter
+App de encuestas
+App de ebook
+Clon de whatsapp
+Clon de netflix
+Clon de pinterest
+App de búsqueda de empleo
+App de citas
+App de seguimiento de paquete
+Juego de memoria
+App de stock
+Ajedrez
+Reproductor de música
+ToDo list
+App de velocidad de tipeo
+App de reserva de hoteles
+Conversor de divisas
+Simulador de plazos fijos
+Simulador de préstamos
+Cotizador de seguros
+App para adopción de mascotas
