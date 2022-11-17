@@ -23,7 +23,6 @@ App de citas
 App de seguimiento de paquete
 Juego de memoria
 App de stock
-Ajedrez
 Reproductor de música
 ToDo list
 App de velocidad de tipeo
