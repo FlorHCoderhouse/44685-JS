@@ -1,0 +1,41 @@
+body{
+    text-align: justify;
+}
+
+.codertitulo {
+    
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.tienda{
+    display:grid;
+grid-template-rows: 100px auto;
+grid-template-columns: repeat(3 1fr);
+grid-template-areas: "saludo saludo saludo"
+"content content content";
+}
+.saludo{
+    grid-area: saludo;
+}
+
+.contenedorTarjetas{
+    grid-area: content;
+}
+.resaltado{
+    background-color: yellow;
+}
+
+#imagen{
+    max-width: 800px;
+    margin:10px 0;
+}
+
+.card{
+    max-width:32%;
+}

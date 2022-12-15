@@ -101,3 +101,4 @@ alert(ordenar(criterio,libros))
 /* Cosas a mejorar:
 1 -Que podamos volver a elegir un criterio de ordenamiento una vez que vimos el primer resultado del sort.
 2 -La forma de asignar el id, habría que tener en cuenta la posibilidad de que se hayan eliminado elementos */
+
