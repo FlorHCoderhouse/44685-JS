@@ -219,18 +219,38 @@ console.log(dados);
  */
 
 //Clase Date para manejo de fechas
-
 /* let fechaActual = new Date();
-console.log(fechaActual);
 
 
-let fechaSimple = new Date(2022, 6, 13);
+console.log(fechaActual); */
+
+/* let fechaSimple = new Date(2022, 6, 13);
 console.log(fechaSimple); */
 
 
+let infartoDeMiocardio = new Date(2022, 11, 18, 12);
+console.log(infartoDeMiocardio);
+
+console.log('El mundial se juega en el año '+infartoDeMiocardio.getFullYear());
+console.log(infartoDeMiocardio.getMonth())
+console.log(infartoDeMiocardio.getDay())
+console.log(infartoDeMiocardio.getDate())
+console.log(infartoDeMiocardio.getTime())
+console.log(infartoDeMiocardio.toString())
+
+
+
 /* 
-let ultimoSegundo = new Date(2022, 11, 31, 23, 59, 59);
-console.log(ultimoSegundo);
+
+
+
+
+
+ */
+
+
+/* 
+
 
 //Métodos para obtener valores singulares de la fecha
 console.log(ultimoSegundo.getFullYear());
