@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <title>Clase 9 - EVENTOS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body id="cuerpo">
+
+
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Coderhouse</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+
+                    </ul>
+                    <div>
+                        <p class="text-light">Bienvenido/a, <span id="nombreUsuario">invitado/a</span></p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 id="tituloPrincipal" class="codertitulo">Clase 9 - Eventos - JS Coderhouse</h1>
+        <div id="botones">
+            <input type="button" id="generico" class="btn btn-primary" value="Saludo Generico">
+            <input type="button" id="personalizado" class="btn btn-success" value="Saludo Personalizado">
+            <input type="button" id="prueba" class="btn btn-warning" value="Botón de prueba">
+
+        </div>
+
+        <div class="embajada"></div>
+
+        <form class="row g-3 my-5">
+            <legend class="h2">Form de registro con varios campos</legend>
+            <div class="col-md-5">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputNombre">
+            </div>
+            <div class="col-md-5">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido">
+            </div>
+            <div class="col-md-2">
+                <label for="inputDNI" class="form-label">DNI</label>
+                <input type="text" class="form-control" id="inputDNI">
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="sólo minúsculas">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Registrarme</button>
+            </div>
+        </form>
+
+        <div id="elegirImagen">
+            <div class="d-flex justify-content-center">
+                <img src="./img/todas.jpg" alt="" id="imgBotellas">
+            </div>
+            <div>
+                <label for="rosa">Rosa</label>
+                <input type="radio" name="color" id="rosa" value="rosa">
+                <label for="verde">Verde</label>
+                <input type="radio" name="color" id="verde" value="verde">
+                <label for="azul">Azul</label>
+                <input type="radio" name="color" id="azul" value="azul">
+                <label for="naranja">Naranja</label>
+                <input type="radio" name="color" id="naranja" value="naranja">
+            </div>
+        </div>
+
+        <div class="tienda">
+            <h2>Tienda</h2>
+            <p class="saludo">
+            </p>
+            <div class="busqueda">
+                <div>
+                    <label for="buscaNombre">Buscar por nombre</label>
+                    <input type="text" name="" class="inputBusqueda" id="nombre">
+                </div>
+                <div>
+                    <label for="buscaCategoria">Buscar por categoría</label>
+                    <input type="text" name="" class="inputBusqueda" id="categoria">
+                </div>
+            </div>
+            <div class="contenedorTarjetas card-group">
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

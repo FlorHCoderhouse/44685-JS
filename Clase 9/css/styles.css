@@ -1,0 +1,71 @@
+body {
+    text-align: justify;
+}
+
+.codertitulo {
+    background-color: yellow;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.tienda {
+    padding: 1em;
+    margin: 2em 0;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: 50px 50px 50px auto;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-areas:
+        "titulo titulo titulo"
+        "saludo saludo saludo"
+        "busqueda busqueda busqueda"
+        "content content content";
+}
+
+.tituloTienda {
+    grid-area: titulo;
+}
+
+.saludo {
+    grid-area: saludo;
+}
+
+.busqueda {
+    grid-area: busqueda;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedorTarjetas {
+    grid-area: content;
+}
+
+.resaltado {
+    background-color: yellow;
+}
+
+#imgBotellas {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 10px 0;
+}
+
+.card {
+    max-width: 32%;
+}
+
+.embajada {
+    width: 550px;
+    height: 368px;
+    background-color: yellow;
+    background-size: cover;
+    border: 15px rgb(253, 233, 12) solid;
+    padding: 50px;
+    margin: 100px;
+
+}
