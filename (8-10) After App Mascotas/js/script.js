@@ -64,7 +64,6 @@ function guardarDatos(usuarioDB, storage) {
     storage.setItem('usuario', JSON.stringify(usuario));
     }
 
-
 //Limpiar los storages
 function borrarDatos() {
     localStorage.clear();
